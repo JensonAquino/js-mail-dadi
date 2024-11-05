@@ -10,8 +10,7 @@ let emailAcces = false;
 // Controllo se l'email è autorizzata usando un ciclo
 for (let i = 0; i < email.length; i++) {
     if (userEmail === email[i]) {
-        emailAcces = true;
-        break; // Uscita dal ciclo se trovata
+        emailAcces = true;     
     }
 }
 
@@ -22,3 +21,17 @@ if (emailAcces = true) {
     alert("Email non riconosciuta.");
 }
 
+//dadi 
+//creazioine dei numeri 
+let myNum = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+console.log(myNum)
+let pcNum = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+console.log(pcNum)
+
+
+//confronto tra il mio numero e quello del pc
+if(myNum > pcNum){
+    console.log("hai vinto")
+}else{
+    console.log("hai perso")
+}

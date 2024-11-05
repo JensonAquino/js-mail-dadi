@@ -20,3 +20,9 @@ Consigli del giorno:
 4. torniamo a scrivere in italiano
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 Buon lavoro e buon divertimento!
+
+SVOLGIMENTO es dado
+
+1. 1 a 6 sia per me che per il pc
+2. confronto tra il mio numero e quello del pc
+3. dichiarare il vincitore
