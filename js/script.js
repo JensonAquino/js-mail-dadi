@@ -15,7 +15,7 @@ for (let i = 0; i < email.length; i++) {
 }
 
 // Messaggio in base al controllo
-if (emailAcces = true) {
+if (emailAcces) {
     alert("Accesso autorizzato.");
 } else {
     alert("Email non riconosciuta.");
@@ -23,15 +23,21 @@ if (emailAcces = true) {
 
 //dadi 
 //creazioine dei numeri 
-let myNum = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+const myNum = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
 console.log(myNum)
-let pcNum = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+const pcNum = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
 console.log(pcNum)
+
+let messaggio = "";
 
 
 //confronto tra il mio numero e quello del pc
 if(myNum > pcNum){
-    console.log("hai vinto")
-}else{
-    console.log("hai perso")
+    messaggio = ("hai vinto")
+}else if(myNum < pcNum){
+    messaggio = ("hai perso")
+}else if(myNum = pcNum){
+    messaggio = ("pari")
 }
+
+console.log(messaggio)
